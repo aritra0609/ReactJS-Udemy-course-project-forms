@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        body{
+            background-color:snow;
+            margin: 0;
+        }
+        .social-icon{
+            height: 50px;
+            width: 55px;
+            padding-top:16px ;
+            padding-bottom:16px ;
+            padding-left: 32px;
+        }
+        #form-heading{
+            font-size: 32px;
+            padding-top: 40px;
+            padding-bottom: 32px;
+        }
+        #social-wrapper{
+            background-color: #f2f6ff;
+            padding: 24px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .input-box{
+            font-size: 18px;
+            padding-bottom: 12px;
+            height: auto;
+            margin-bottom: 36px;
+            border: 0;
+            border-bottom: 1px solid #cccc;
+            width: 99.5%;
+        }
+        #input-wrapper{
+            padding-top: 80px;
+            padding-bottom: 40px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .Submit-button{
+            font-weight: 400;
+            width: 100px;
+            height: 30px;
+            background-color: blue;
+            color: #f2f6ff;
+            font-size: large;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <form style="text-align: center;background-color: white;margin-left: auto;margin-right: auto;width: 700px;border: 1px solid;margin-top: 10px;">
+        <h1 id="form-heading">Register</h1>
+        <div id="social-wrapper">
+            <img class="social-icon" src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png" alt="Google Logo"/>
+            <img class="social-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/900px-Facebook_Logo_%282019%29.png?20190503112358" alt="Facebook Logo"/>
+            <img class="social-icon" src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo-768x432.png" alt="Github Logo"/>
+            <img class="social-icon" src="https://www.freepnglogos.com/uploads/linkedin-logo-design-30.png" alt="LinkedIn logo"/>
+        </div>
+        <div id="input-wrapper">
+            <div>
+                <input class="input-box" type="text" name="username" placeholder="Username"><br>
+                <input class="input-box" type="email" name="email" placeholder="Email"><br>
+                <input class="input-box" type="password" name="password" placeholder="Password"><br>
+                <input class="input-box" type="password" name="confirm-password" placeholder="Confirm Password">
+            </div>
+            <input class="Submit-button" type="submit" name="Submit" value="Register">
+        </div>
+    </form>
+</body>
+</html>
